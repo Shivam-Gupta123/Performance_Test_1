@@ -1,2 +1,13 @@
-# Performance_Test_1
-This repository contains the code used on our robot for the first performance test.
+**Performance Test #1:**
+
+Our design met all the specifications of the performance test. Our robot successfully started when the start light came on, completed all the tasks, and pushed the final button. This was the first of two performance tests, the latter of which will take place at the RPAC (recreation and physical activity center) for the final robot competition. This first performance test consisted of three runs. 
+
+During the first run, the robot caught got on the fuel levers task, but it was able to recover and complete the remaining task to receive a total of 89/100 total points. In the next run, the robot was able to fix its issues from the first run and successfully flip a lever both upwards and downwards. This resulted in 96/100 total points (not 100/100 because the robot wasn’t able to place the luggage on the top site). In the final run, the RPS heading check after completing the luggage task was messed up and caused the robot to back up too far and get stuck on the course. Although our last run only received a total of 26/100 points, the other runs proved that the robot was well capable of performing during the competition. 
+
+Our design performed as we expected it too, and our practice runs were a lot less erratic than they were in previous testing days. The only issue was that sometimes the robot was too far forward and oriented at the wrong angle, resulting in the luggage getting launched past the deposit site. This was easily fixed by changing input values to the robot.  
+
+One strength of our robot design is that the lever arm has a hook, which results in easy movement and release of the luggage. Also, our lever arm is controlled by a FITEC High Torque Servo, which results in quick and easy control over the lever arm and allows for the lever arm to be set at a certain angle. Additionally, the Q.R. code stand extensions serve as a rest for the lever, which allows for minimal expenditure of energy and higher efficiency.
+
+One way the design of our robot can be improved is by changing the orientation of the wiring on the robot. The wiring on the robot is currently very complicated and confusing. Also labelling the motor port wires would be helpful. It takes a significant amount of time to set up and wire up the robot before every session. 
+
+To ensure success in the upcoming Performance Test 2 (final competition), the team will implement solutions to make the robot as consistent as possible. For checkpoints 1 and 2, we had mainly relied on brute force and sheer luck to complete the tasks. Additionally, we will try to be more proactive in trying to detect potential issues with the functionality of the robot before the date of the final competition, especially with RPS since that has been a recurring issue for most runs. One way that the team plans on improving the consistency of robot runs is to implement some sort of mechanism that will show the relative orientation of the robot to the course and will allow for the robot to be angled and placed the same way for every run.
